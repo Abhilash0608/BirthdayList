@@ -145,6 +145,7 @@ ul {
   transition: var(--transition);
   text-transform: capitalize;
   display: inline-block;
+  margin-bottom: 2rem;
 }
 .btn:hover {
   background: var(--primary-700);
@@ -159,7 +160,9 @@ ul {
   background: var(--primary-700);
 }
 .btn-block {
-  width: 100%;
+  width: var(--fixed-width);
+  margin-bottom: 2rem;
+  margin: auto;
 }
 
 /* alerts */
@@ -303,4 +306,10 @@ main {
 }
 .person p {
   color: var(--grey-500);
+}
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
